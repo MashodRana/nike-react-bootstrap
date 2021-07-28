@@ -1,0 +1,10 @@
+/* .navbar-brand img{
+    width: 290px;
+} */
+
+@media only screen and (min-width: 576px){
+    .navbar-brand img{
+        width: 290px;
+        height: 40px;
+    }
+}
