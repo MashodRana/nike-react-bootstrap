@@ -1,10 +1,52 @@
+/* Import Google Font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* -------------------------------------------
+            Utilities Styles
+----------------------------------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /* .navbar-brand img{
     width: 290px;
 } */
 
+.intro-page{
+    background-color: #FFF9F4;
+}
+.intro-title-part-1{
+    color: #FA804C;
+}
+
+.intro-title-part-2{
+    color: #353957;
+}
+
+
+@media only screen and (min-width: 768px){
+    .intro-banner h1{
+        font-size: 80px;
+        font-weight: 700;
+    }
+}
+
 @media only screen and (min-width: 576px){
+    .intro-banner h1{
+        font-size: 64px;
+        font-weight: 700;
+    }
     .navbar-brand img{
         width: 290px;
         height: 40px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .intro-banner h1{
+        font-size: 32px;
+        font-weight: 700;
     }
 }
